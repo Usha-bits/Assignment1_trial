@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
  
-df = pd.read_csv("D:/Usha/Prefect/Assignment1_trial/data/credit_card_fraud_dataset.csv")
+df = pd.read_csv("D:/Usha/Prefect/Assignment1_trial/data/earthquakes.csv.csv")
 print(df)
 
 # Correlation Matrix - Internally uses Pearson Correlation
