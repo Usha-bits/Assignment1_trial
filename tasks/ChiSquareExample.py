@@ -2,14 +2,13 @@ import pandas as pd
 from scipy.stats import chi2_contingency
 
 # Load the earthquake dataset
-file_path = '/mnt/data/earthquakes.csv'
-df = pd.read_csv(file_path)
+df = pd.read_csv("D:/Usha/Prefect/Assignment1_trial/data/earthquakes.csv")
 
 # Display the dataset structure
 print(df.head())
 
 # Create a contingency table for 'type' and 'alert'
-contingency_table = pd.crosstab(df['type'], df['alert'])
+contingency_table = pd.crosstab(df['net'], df['status'])
 print("Contingency Table:")
 print(contingency_table)
 
