@@ -10,7 +10,7 @@
 import pandas as pd
 import numpy as np
  
-df = pd.read_csv("D:/Usha/Prefect/Assignment1_trial/data/credit_card_fraud_dataset.csv")
+df = pd.read_csv("D:/Usha/Prefect/Assignment1_trial/data/earthquakes.csv")
 print(df)
 
 from sklearn import preprocessing
